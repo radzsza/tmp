@@ -2,12 +2,14 @@ Aleksandra Radziukiewicz
 08-04-2025  
 # Short git(hub) tutorial  
 
-<details>
+## What is git(hub)?
 
-<summary> What is git(hub)? </summary>  
 ### Git  
+
 Version control system.
+
 ### github
+
 A platform allowing developers to:  
 * create  
 * store  
@@ -16,13 +18,9 @@ A platform allowing developers to:
 
 their code. It is often used for collaboration in programming projects or to share open access code.  
 
-</details>
+## Getting started with a new repo
 
-<details>
-
-<summary> Getting started with a new repo </summary>
-
-I am going to skip steps like "log in" or "click here"
+I am going to skip steps like "log in" or "click here"  
 
 ### github
 1. Create a repo  
@@ -39,11 +37,7 @@ Push:
 6. `git push origin [master/main]`  
 7. enter username and access token
 
-</details>
-
-<details>
-
-<summary> Access tokens </summary>
+## Access tokens
 
 ### Private access token
 
