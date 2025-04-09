@@ -26,15 +26,15 @@ I am going to skip steps like "log in" or "click here"
 1. Create a repo  
 2. Copy https or ssh url (depends on what you use - I used https and PAT)
 ### terminal  
-1. `git config --global user.name "username"`, `git config --global user.email [emai]`  
+1. `git config --global user.name "username"`, `git config --global user.email <emai>`  
 2. In the designated directory - `git init`  
 Linking with the github repo:  
-3. `git remote add origin [repo-url]`  
+3. `git remote add origin <repo-url>`  
 Commiting the changes:  
-4. `git add [a specific file or .]`  
+4. `git add <filename/.>`  
 5. `git commit -m "message"`  
 Push:  
-6. `git push origin [master/main]`  
+6. `git push origin <branch-name>`  
 7. enter username and access token
 
 ## Access tokens
@@ -46,8 +46,8 @@ step 7.
 ## Restoring
 
 1. `git log` to see all the commits  
-2. make a new branch `git branch [name]`
-3. `git checkout [ID]` where ID is commit ID we want to restore  
+2. make a new branch `git branch <name>`  
+3. `git checkout <ID>` where ID is commit ID we want to restore  
 4. make changes  
 5. commit and push changes  
 6. merge
