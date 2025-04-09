@@ -29,7 +29,7 @@ I am going to skip steps like "log in" or "click here"
 1. `git config --global user.name "username"`, `git config --global user.email [emai]`  
 2. In the designated directory - `git init`  
 Linking with the github repo:  
-3. `git remote add origin [repo-url]`
+3. `git remote add origin [repo-url]`  
 Commiting the changes:  
 4. `git add [a specific file or .]`  
 5. `git commit -m "message"`  
@@ -75,7 +75,7 @@ Pull is fetch and merge combined.
 ## Basic commands
 
 * `git init` - starts a local repo  
-* `git clone` - clones a remote repo locally (I also used `git remote add origin <url>`  
+* `git clone` - clones a remote repo locally (I also used `git remote add origin <url>`)  
 * `git status` - shows modified files  
 * `git add <name/.>` - add a file/all files in a directory to next commit  
 * `git commit -m "message"` - new commit snapshot of added files  
